@@ -1,0 +1,122 @@
+<mjml>
+    <!--HEAD -->
+    <mj-head>
+        <mj-font
+            name="Plus Jakarta Sans"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Plus+Jakarta+Sans:wght@700&display=swap"
+        />
+        <mj-style>
+            .mj_body { padding: 0 10px; background-color: #FFFFFF !important; }
+            .bg--shadow { box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05); }
+            .br--top-el, .br--top-el table { border-top-left-radius: 5px
+            !important; border-top-right-radius: 5px !important; }
+            .br--bottom-el, .br--bottom-el table { border-bottom-left-radius:
+            5px !important; border-bottom-right-radius: 5px !important; }
+            .padding_x_axis { padding-left: 30px !important; padding-right: 30px
+            !important; } .position div {text-align: center !important;} @media
+            only screen and (min-width: 600px) { .mj_body { padding: 30px;
+            background-color: #F6F6F6 !important; } .padding_x_axis {
+            padding-left: 50px !important; padding-right: 50px !important; }
+            .position, .position div { text-align: left !important;}}
+        </mj-style>
+    </mj-head>
+    <!--BODY-->
+    <mj-body css-class="mj_body">
+        <!-- Body header -->
+        <mj-wrapper full-width="full-width" padding="20px 0px 0px">
+            <mj-section
+                css-class="br--top-el bg--shadow header--mobile"
+                padding="20px"
+                background-url="https://picsum.photos/700/600"
+                background-size="cover"
+                background-repeat="no-repeat"
+                background-position="25%"
+            >
+                <mj-column>
+                    <mj-image
+                        href="#"
+                        src="https://dynamic.brandcrowd.com/asset/logo/ca1e7569-ec0c-4259-9db3-47d87023b304/logo-search-grid-1x?logoTemplateVersion=1&v=637018791920200000"
+                        width="150px"
+                        align="left"
+                    />
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!-- Body main -->
+        <mj-wrapper full-width="full-width" padding="0 0 20px">
+            <mj-section
+                css-class="br--bottom-el  bg--shadow padding_x_axis"
+                padding="50px 0 50px"
+                background-color="#fff"
+            >
+                <mj-column>
+                    <mj-text
+                        css-class="position"
+                        padding="30px 0 0"
+                        font-family="Inter, Arial, sans-serif"
+                        font-weight="400"
+                        font-size="16px"
+                        line-height="19px"
+                        color="#333333"
+                        >Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years
+                        old.</mj-text
+                    >
+                    <mj-text
+                        css-class="position"
+                        padding="30px 0 0"
+                        font-family="Inter, Arial, sans-serif"
+                        font-weight="400"
+                        font-size="16px"
+                        line-height="19px"
+                        color="#333333"
+                    >
+                        Lorem Ipsum, <br />
+                        Lorem
+                    </mj-text>
+                    <mj-button
+                        css-class="position"
+                        href="#"
+                        inner-padding="15px 40px"
+                        padding="40px 0 0"
+                        background-color="#000"
+                        color="#fff"
+                        font-family="Inter, Arial, sans-serif"
+                        font-weight="700"
+                        font-size="16px"
+                        border-radius="5px"
+                    >
+                        Lorem
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!-- Body footer -->
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-text
+                    padding="0"
+                    font-family="Inter, Arial, sans-serif"
+                    font-weight="400"
+                    font-size="12px"
+                    line-height="20px"
+                    color="#000000"
+                    align="right"
+                    >© Lorem Ipsum. All rights reserved.</mj-text
+                >
+                <mj-text
+                    padding="0"
+                    font-family="Inter, Arial, sans-serif"
+                    font-weight="700"
+                    font-size="12px"
+                    line-height="20px"
+                    align="right"
+                    ><a href="#" style="text-decoration: none; color: #000"
+                        >lorem@ipsum.com</a
+                    ></mj-text
+                >
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
